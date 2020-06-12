@@ -1,0 +1,32 @@
+# https://www.service-public.fr/particuliers/vosdroits/F1814
+# duree_contrat > 3 mois
+# isolé
+# nb enf < 10 ans
+# temps de travail / semaine ou par mois
+
+
+# https://www.service-public.fr/particuliers/vosdroits/F14860
+# https://www.unedic.org/indemnisation/fiches-thematiques/cumul-allocation-salaire
+# # jours indemnisables
+# # jours indemnisables
+# salaire journalier de référence
+# ARE journaliere
+# - fixe
+# - 40,4% SJR
+# nouveau salaire
+
+
+# salaire journalier de référence
+# temps de travail / semaine ou par mois
+# - period: 2020-06
+#   input:
+#     salaire_journalier_reference: [1, 1000]
+#   output:
+#     are_j: [0.75, 570]
+
+- period: 2020-06
+  input:
+    salaire_journalier_reference: [100, 100]
+    salaire_de_base: [2100, 0]
+  output:
+    complement_are: [228, 0]
