@@ -18,7 +18,7 @@ setup(
             'nose',
             ],
         'excel-reader': [
-            'pandas >= 1.2',
+            'pandas',
             'xlrd == 1.2.0'
             ]
         },
