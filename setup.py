@@ -10,8 +10,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires = [
-        'git+https://github.com/mes-aides/openfisca-core.git@m1#egg=Openfisca-Core',
-        'git+https://github.com/mes-aides/openfisca-france.git@m1#egg=openfisca-France'
+        'Openfisca-Core @ git+https://github.com/mes-aides/openfisca-core.git@m1#egg=Openfisca-Core',
+        'openfisca-France @ git+https://github.com/mes-aides/openfisca-france.git@m1#egg=openfisca-France'
         ],
     extras_require = {
         'test': [
